@@ -136,7 +136,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 ### Vim ###
 # Swap
@@ -160,11 +159,6 @@ tags
 [._]*.un~
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
@@ -172,3 +166,6 @@ tags
 .history
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,visualstudiocode,vim
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
